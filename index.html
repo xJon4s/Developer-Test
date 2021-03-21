@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<script type="text/javascript">
+
+    function malef() {
+    	document.getElementById("malel").style.color = "#66C39A";
+    	document.getElementById("femalel").style.color = "rgba(0, 0, 0, 0.4)";
+    	document.getElementById("otherl").style.color = "rgba(0, 0, 0, 0.4)";
+    }
+    
+    function femalef() {
+    	document.getElementById("malel").style.color = "rgba(0, 0, 0, 0.4)";
+    	document.getElementById("femalel").style.color = "#66C39A";
+    	document.getElementById("otherl").style.color = "rgba(0, 0, 0, 0.4)";
+    }
+    
+    function otherf() {
+    	document.getElementById("malel").style.color = "rgba(0, 0, 0, 0.4)";
+    	document.getElementById("femalel").style.color = "rgba(0, 0, 0, 0.4)";
+    	document.getElementById("otherl").style.color = "#66C39A";
+    }
+    
+    
+    
+    
+</script>
+
+
+
+<meta charset="UTF-8">
+<title>Developer test Assignment</title>
+<script defer src="javaest.js"></script>
+</head>
+<body>
+<p id="test" onclick="test123()">test</p>
+	<section>
+		<article class="links">
+
+			<article class="lines">
+				<hr class="hr1"></hr>
+				<hr class="hr2"></hr>
+				<hr class="hr3"></hr>
+			</article>
+
+
+			<h1>
+				Subscribe now and get a <span style="color: #66C39A">free</span>
+				t-shirt directly in your inbox.
+			</h1>
+
+
+		</article>
+
+		<form id="form" >
+			<article class="radiobuttons">
+				<article class="radiobutton">
+					<input type="radio" id="malerb" name="gender" value="male"
+						class="radio" onclick="malef()"> <label for="male"
+						class="radiob" id="malel">Male</label>
+				</article>
+
+				<article class="radiobutton">
+					<input type="radio" id="femalerb" name="gender" value="female"
+						class="radio" onclick="femalef()"> <label for="female"
+						class="radiob" id="femalel">Female</label>
+				</article>
+
+				<article class="radiobutton">
+					<input type="radio" id="otherrb" name="gender" value="other"
+						class="radio" onclick="otherf()"> <label for="other"
+						class="radiob" id="otherl">Other</label>
+				</article>
+
+			</article>
+
+
+			<article class="eingaben">
+
+				<article class="eingabe">
+					<h2>Name</h2>
+					<input id="nametf" type="text" class="textfield">
+					<hr class="rounded">
+					<p></p>
+				</article>
+
+				<article class="eingabe">
+					<h2>EMail</h2>
+					<input id="emailtf" type="email" class="textfield" required="required">
+					<hr class="rounded">
+					<p id="mailp" class="fehler"></p>
+				</article>
+
+			</article>
+
+
+			<article class="checkbox">
+
+				<input type="checkbox" class="check" required="required" id="checkb"> <a
+					href="https://www.w3schools.com">I agree with the privacy
+					policies</a><br>
+			</article>
+
+			<button type="submit" class="button" id="submit">Submit</button>
+
+		</form>
+
+
+	</section>
+
+
+
+
+
+</body>
+</html>
